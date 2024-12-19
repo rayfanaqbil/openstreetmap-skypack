@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popup {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+  width: 300px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popup textarea {
+  width: 100%;
+  height: 80px;
+  resize: none;
+}
+
+.popup button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit{
+  background-color: green;
+  color: white;
+}
+
+.cancel{
+  background-color: red;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
